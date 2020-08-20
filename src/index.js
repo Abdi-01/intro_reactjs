@@ -7,6 +7,7 @@ import * as serviceWorker from './serviceWorker';
 import { BrowserRouter } from 'react-router-dom'
 
 ReactDOM.render(
+  // Sebagai penghubung semua page yang telah di <Route> di App.js
   <BrowserRouter>
     <App />
   </BrowserRouter>

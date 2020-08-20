@@ -1,6 +1,15 @@
 import React from 'react';
 import { Link } from 'react-router-dom'
 
+
+/*
+Penuliasan functional component biasanya digunakan untuk membuat component yang tidak membutuhkan data state.
+Hanya merender component yang kita ingin buat. Jika dibandingkan dengan class component ini sama dengan
+fungsi 
+    render(){
+        return()
+    } 
+*/
 export default (props) => {
     return (
         <nav className="navbar navbar-expand-lg navbar-light bg-light">
